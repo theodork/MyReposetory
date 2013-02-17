@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="Calculator">
+        <div class="Window">
+            <img src="Calculator.png" />
+        </div>
+        <div class="Menu">
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="Content">
+            <input type="text" value="987654321" readonly="readonly" class="Output" />
+            <table class="BinnaryOutput">
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td class="Left">63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="Left">47</td>
+                    <td></td>
+                    <td></td>
+                    <td class="Right">32</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td class="Left">31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="Left">15</td>
+                    <td></td>
+                    <td></td>
+                    <td class="Right">0</td>
+                </tr>
+            </table>
+            <table class="Keyboard">
+                <tbody>
+                    <tr>
+                        <td rowspan="3" colspan="2" class="BigCell">
+                            <form>
+                                <table class="RadioButtons">
+                                    <tr>
+                                        <td>
+                                            <input type="radio" />Hex
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" checked="checked" />Dec
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" />Oct
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" />Bin
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled"></button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">Mod</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">A</button>
+                        </td>
+                        <td>
+                            <button type="button" class="GhostCells">MC</button>
+                        </td>
+                        <td>
+                            <button type="button" class="GhostCells">MR</button>
+                        </td>
+                        <td>
+                            <button type="button" class="GhostCells">MS</button>
+                        </td>
+                        <td>
+                            <button type="button" class="GhostCells">M+</button>
+                        </td>
+                        <td>
+                            <button type="button" class="GhostCells">M-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="NormalCells">(</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">)</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">B</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">&larr;</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">CE</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">C</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">&#177;</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">&radic;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="NormalCells">RoL</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">RoR</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">C</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">7</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">8</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">9</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">/</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">%</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" colspan="2" class="BigCell">
+                            <form>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" checked="checked" />Qword</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" />Dword</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" />Word</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" />Byte</td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">Or</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">Xor</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">D</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">4</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">5</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">6</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">*</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">1/x</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="NormalCells">Lsh</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">Rsh</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">E</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">1</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">2</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NumberCell">3</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">-</button>
+                        </td>
+                        <td rowspan="2">
+                            <button type="button" class="LongCell">=</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="NormalCells">Not</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">And</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">F</button>
+                        </td>
+                        <td colspan="2">
+                            <button type="button" class="WidthCell">0</button>
+                        </td>
+                        <td>
+                            <button type="button" disabled="disabled" class="Disabled">.</button>
+                        </td>
+                        <td>
+                            <button type="button" class="NormalCells">+</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
