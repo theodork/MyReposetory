@@ -1,0 +1,88 @@
+?*Task 1 form CSS Exam Telerik */
+
+body {
+    margin:0;
+    padding:0;
+}
+#wrapper
+{/* WebKit */ -webkit-box-sizing: border-box; 
+    margin:10px;
+    width:960px;
+    height:200px; 
+    background: -webkit-linear-gradient(top,  rgba(2,48,72,1) 0%,rgba(119,208,254,1) 100%); /* Chrome10+,Safari5.1+ */
+    padding:50px;
+}
+header
+{
+}
+    nav > ul
+    {
+        position:relative;
+
+    }
+
+        nav > ul li
+        {
+            border-radius:10px;
+            padding:15px 10px 15px 10px;
+            margin:5px;
+        }
+ul
+{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+}
+li
+{
+    display:inline-block;
+}
+    li ul
+    {
+        display:none;
+    }
+    li.selected
+    {
+        background-color:rgba(39,85,109,0.9);
+    }
+        li.selected > ul
+        {
+            position:absolute;
+            left:0;
+            display:block;
+        }
+        li.selected ul li:hover ul
+        {
+            position:absolute;
+            display:block;
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(119,208,254,1) 100%); /* Chrome10+,Safari5.1+ */
+
+        }
+    li:hover
+    {
+            background-color:rgba(17,92,131,0.9);
+    }
+            li.selected ul li ul li
+            {
+                display:block;
+                border:0;
+                border-radius:0;
+                border-bottom:1px solid black;
+            }
+            li.selected ul li ul li:last-of-type
+            {
+                display:block;
+                border:0;
+                border-radius:0;
+            }
+a
+{
+    text-decoration:none;
+    color:black;
+    font-family:Arial;
+    font-size:16px;
+}
+    a:hover
+    {
+    }
