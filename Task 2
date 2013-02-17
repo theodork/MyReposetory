@@ -1,0 +1,70 @@
+/*Task 2 CSS Telerik Exam*/
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    font-family:Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size:16px;
+}
+#wrapper
+{
+    width:960px;
+}
+
+#wrapper > div
+{
+    width:700px;
+    height:435px;
+    background-color:#CCCCCC;
+    position:relative;
+    margin:10px;
+    padding:10px;
+    /* Opera 9.5+, Google Chrome */ box-sizing: border-box;
+    border-radius:5px;
+}
+.holder
+{
+    position:absolute;
+}
+.holder img
+{
+    height:410px;
+    width:550px;
+    border-radius:5px;
+}
+.playlist
+{
+    float:right;
+}
+ul
+{
+    list-style:none;
+}
+li
+{
+    border-bottom:1px solid black;
+}
+    li img
+    {
+        border-radius:10px;
+    }
+a
+{
+    text-decoration:none;
+    color:black;
+    display:block;
+    width:120px;
+    height:90px;
+    text-align:center;
+    font-weight:bolder;
+    padding-top:3px;
+    padding-bottom:5px;
+
+}
+    a:hover
+    {
+        text-decoration:underline;
+    }
